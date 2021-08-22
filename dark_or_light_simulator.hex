@@ -1,0 +1,6 @@
+start
+repeat indefinitely
+do show image (happy)
+wait until get value % light sensor ≥ 150
+show image (sad)
+wait until get value % light sensor < 150
